@@ -60,4 +60,3 @@ Perfect Numbers From 1 to 30 are:
 
 6
 28
-
