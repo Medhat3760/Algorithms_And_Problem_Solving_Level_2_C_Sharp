@@ -3,7 +3,7 @@
     internal class Problem4
     {
 
-        // Problem #4       (Print Perfect Number From 1 to N)
+        // Problem #4       ( Print Perfect Number From 1 to N )
 
         static int ReadPositiveNumber(string message)
         {
