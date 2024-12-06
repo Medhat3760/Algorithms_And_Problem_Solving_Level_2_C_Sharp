@@ -61,7 +61,7 @@ This C# program identifies and prints all prime numbers from 1 to a user-specifi
 Enter a Positive Number ?
 20
 ```
-###Output:
+### Output:
 ```
 Prime Numbers From 1 to 20 are :
 2
