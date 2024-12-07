@@ -55,5 +55,6 @@ Enter a Positive Number?
 12345
 ```
 ### Output:
+```
 Sum Of Digits = 15
 ```
