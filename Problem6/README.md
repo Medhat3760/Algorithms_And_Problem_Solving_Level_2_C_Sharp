@@ -53,3 +53,7 @@ This C# program calculates the sum of the digits of a user-provided positive int
 ```plaintext
 Enter a Positive Number?
 12345
+```
+### Output:
+Sum Of Digits = 15
+```
