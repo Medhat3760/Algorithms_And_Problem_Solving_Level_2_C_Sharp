@@ -1,6 +1,6 @@
-﻿namespace Problem12
+namespace Problem12
 {
-    // Reverse Number
+    // Inverted Number Pattern
     internal class Problem12
     {
 
@@ -20,28 +20,27 @@
 
         }
 
-        static int ReverseNumber(int Number)
+        static void PrintInvertedNumberPattern(int Number)
         {
 
-            int Remainder = 0, Number2 = 0;
-            while (Number > 0)
+            for (int i = Number; i >= 1; i--)
             {
 
-                Remainder = Number % 10;
-                Number /= 10;
-                Number2 = Number2 * 10 + Remainder;
+                for (int j = 1; j <= i; j++)
+                {
+                    Console.Write(i);
+                }
+
+                Console.WriteLine();
 
             }
-
-            return Number2;
 
         }
 
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Reverse Number is :\n" +
-                              ReverseNumber(ReadPositiveNumbers("Entre a Positive Number?")));
+            PrintInvertedNumberPattern(ReadPositiveNumbers("Enter a Positive Number?"));
 
         }
     }
