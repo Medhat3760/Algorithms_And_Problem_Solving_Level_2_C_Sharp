@@ -1,4 +1,4 @@
-﻿namespace Problem29
+namespace Problem29
 {
     // Copy Only Prime Numbers
     internal class Problem29
@@ -8,7 +8,7 @@
 
         static enPrimeNotPrime CheckPrime(int Num)
         {
-           
+
             if (Num <= 1)
                 return enPrimeNotPrime.NotPrime;
 
@@ -76,7 +76,7 @@
                 }
 
             }
-            
+
             arr2Length = Counter;
         }
 
@@ -110,7 +110,6 @@
             Console.WriteLine("\nArray 2 Prime Numbers: ");
             PrintArray(arr2, arr2Length);
 
-            Console.WriteLine(arr2Length);
         }
     }
 }
