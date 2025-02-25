@@ -1,4 +1,4 @@
-# Problem30 - Sum Of Two Arrays To a Third One
+# Problem30: Sum Of Two Arrays To a Third One
 
 ## Description
 This C# program generates two arrays of random numbers, sums their corresponding elements, and stores the result in a third array. The program prompts the user to enter the number of elements for the arrays, fills them with random numbers, computes the sum, and displays all three arrays.
