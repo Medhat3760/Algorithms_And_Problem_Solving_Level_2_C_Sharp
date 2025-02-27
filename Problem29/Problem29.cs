@@ -9,18 +9,24 @@ namespace Problem29
         static enPrimeNotPrime CheckPrime(int Num)
         {
 
-            if (Num <= 1)
+            if (Num < 2)
                 return enPrimeNotPrime.NotPrime;
 
-            int M = (int)Math.Round((float)Num / 2);
+            if (Num == 2)
+                return enPrimeNotPrime.Prime; // 2 is the only even prime
 
-            for (int i = 2; i <= M; i++)
+            if (Num % 2 == 0)
+                return enPrimeNotPrime.NotPrime; // Exclude all even numbers
+
+            int sqrtNum = (int)Math.Sqrt(Num);
+            for (int i = 3; i <= sqrtNum; i += 2) // Check only odd numbers
             {
 
                 if (Num % i == 0)
                     return enPrimeNotPrime.NotPrime;
 
             }
+
             return enPrimeNotPrime.Prime;
         }
 
