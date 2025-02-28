@@ -1,23 +1,8 @@
-﻿namespace Problem42
+namespace Problem42
 {
     // Count Odd Numbers In Array
     internal class Problem42
     {
-
-        enum enOddOrEven { Odd = 1, Even = 2 };
-
-        static enOddOrEven CheckOddOrEven(int Num)
-        {
-
-            if (Num % 2 == 0)
-            {
-
-                return enOddOrEven.Even;
-
-            }
-
-            return enOddOrEven.Odd;
-        }
 
         static int ReadPositiveNumber(string Message)
         {
